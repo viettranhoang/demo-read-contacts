@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_avatar"
+        android:layout_margin="5dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp" />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:text="Name"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/image_avatar" />
+
+    <TextView
+        android:id="@+id/text_phone_number"
+        android:text="Email"
+        android:layout_alignBottom="@id/image_avatar"
+        android:layout_below="@id/text_name"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/image_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
